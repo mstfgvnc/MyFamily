@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/manzara"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:padding="5dp">
+
+                <Button
+                    android:id="@+id/dil"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:background="@mipmap/turkey"
+                    android:gravity="bottom|center_horizontal"
+                    android:textSize="8sp" />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:padding="8dp"
+
+               >
+
+                <Button
+                    android:id="@+id/muzik"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:background="@mipmap/sesac"
+                    android:gravity="bottom|center_horizontal" />
+
+                <Button
+                    android:id="@+id/muzik2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@mipmap/seskapa"
+                    android:enabled="false"
+                    android:gravity="bottom|center_horizontal"
+                    android:visibility="invisible" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:padding="10dp"
+                android:background="@mipmap/su"
+
+                >
+
+                <Button
+                    android:id="@+id/aile"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom|center_horizontal"
+                    android:paddingBottom="0dp"
+                    android:text="AİLE"
+                    android:textColor="#ffffff"
+                    android:textSize="7pt"
+                    android:textStyle="bold|italic" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:padding="10dp"
+                android:background="@mipmap/su"
+
+
+
+
+                >
+
+                <Button
+                    android:id="@+id/sayi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom|center_horizontal"
+                    android:paddingBottom="0dp"
+                    android:text="SAYILAR"
+                    android:textColor="#FFffFF"
+                    android:textSize="7pt"
+                    android:textStyle="bold|italic" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:padding="10dp"
+                android:background="@mipmap/su"
+                >
+
+                <Button
+                    android:id="@+id/alfabe"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawablePadding="20dp"
+
+                    android:gravity="bottom|center_horizontal"
+                    android:paddingBottom="0dp"
+                    android:text="ALFABE"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFffff"
+                    android:textSize="7pt"
+                    android:textStyle="bold|italic" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:padding="10dp"
+                android:background="@mipmap/su"
+
+                >
+
+                <Button
+                    android:id="@+id/hayvan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="HAYVANLAR"
+                    android:paddingBottom="0dp"
+                    android:textColor="#ffffff"
+                    android:textSize="7pt"
+                    android:textStyle="bold|italic"
+
+                    />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:padding="10dp"
+                android:background="@mipmap/su"
+
+                >
+                <Button
+                    android:id="@+id/renk"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="RENKLER"
+                    android:gravity="bottom|center_horizontal"
+                    android:paddingBottom="0dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="7pt"
+                    android:textStyle="bold|italic"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:padding="10dp"
+                android:background="@mipmap/su"
+
+                >
+
+                <Button
+                    android:id="@+id/vucud"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom|center_horizontal"
+                    android:paddingBottom="0dp"
+                    android:text="VÜCUD"
+                    android:textColor="#FFFFFF"
+                    android:textSize="7pt"
+                    android:textStyle="bold|italic" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:padding="10dp"
+                android:background="@mipmap/su"
+
+                >
+
+                <Button
+                    android:id="@+id/meslek"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="MESLEKLER"
+                    android:gravity="bottom|center_horizontal"
+                    android:paddingBottom="0dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="7pt"
+                    android:textStyle="bold|italic"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:padding="10dp"
+                android:background="@mipmap/su"
+
+                >
+                <Button
+                    android:id="@+id/sebze"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="SEBZELER"
+                    android:gravity="bottom|center_horizontal"
+                    android:paddingBottom="0dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="7pt"
+                    android:textStyle="bold|italic"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:padding="10dp"
+                android:background="@mipmap/su"
+
+                >
+
+                <Button
+                    android:id="@+id/arac"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom|center_horizontal"
+                    android:paddingBottom="0dp"
+                    android:text="ARAÇLAR"
+                    android:textColor="#FFFFFF"
+                    android:textSize="7pt"
+                    android:textStyle="bold|italic" />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:padding="10dp"
+                android:background="@mipmap/su"
+
+                >
+
+                <Button
+                    android:id="@+id/meyve"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom|center_horizontal"
+                    android:paddingBottom="0dp"
+                    android:text="MEYVELER"
+                    android:textColor="#FFFFFF"
+                    android:textSize="7pt"
+                    android:textStyle="bold|italic" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:padding="10dp"
+                android:background="@mipmap/su"
+
+                >
+                <Button
+                    android:id="@+id/sekil"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ŞEKİLLER"
+                    android:gravity="bottom|center_horizontal"
+                    android:paddingBottom="0dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="7pt"
+                    android:textStyle="bold|italic"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:padding="10dp"
+                android:background="@mipmap/su"
+
+                >
+
+                <Button
+                    android:id="@+id/mutfak"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="MUTFAK"
+                    android:gravity="bottom|center_horizontal"
+                    android:paddingBottom="0dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="7pt"
+                    android:textStyle="bold|italic"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:padding="8dp">
+
+                <Button
+                    android:id="@+id/cikis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/button_selector" />
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
